@@ -1,0 +1,56 @@
+body {
+  background-color: rgba(255, 255, 255, 0.473);
+  font-family: Calibri;
+  color: #273136;
+}
+
+header, footer {
+  background-color: #c9e2ee88;
+  color: rgb(52, 80, 82);
+
+}
+
+nav {
+  text-transform: uppercase;
+}
+
+footer {
+  font-size: small;
+  font-style: oblique;
+  text-align: center;
+
+}
+
+section.poemas, section.poemas img{
+  font-style: italic;
+  text-align: center;
+}
+
+section.poemas img {
+  width: 1000px;
+
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h2.principal {
+  text-align: center;
+  font-size: 40px;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+nav li {
+  list-style: none;
+  font-family: Calibri;
+}
+
+a {
+  text-decoration: none;
+  color: #292929;
+}
