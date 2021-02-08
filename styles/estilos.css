@@ -1,20 +1,19 @@
-body {
-  background-color: rgba(255, 255, 255, 0.473);
-  font-family: Calibri;
-  color: #273136;
+body{
+  background-color: #EBF0F6;
+  font-family: 'Raleway', Calibri;
+  color: #273447;
+}
+a {
+  color: #273447;
+  text-decoration: none;
 }
 
-header, footer {
-  background-color: #c9e2ee88;
-  color: rgb(52, 80, 82);
+header.principal, footer.pie, header.principal a, footer.pie a {
+  color:#758394;
 
 }
 
-nav {
-  text-transform: uppercase;
-}
-
-footer {
+footer.pie{
   font-size: small;
   font-style: oblique;
   text-align: center;
@@ -32,25 +31,41 @@ section.poemas img {
 }
 
 h2 {
-  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 400;
 }
 
-h2.principal {
+h2.home {
   text-align: center;
-  font-size: 40px;
+  font-size: 65px;
 }
 
 h1 {
-  font-family: sans-serif;
-  font-weight: lighter;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  font-size: 40px;
 }
 
-nav li {
+footer.pie nav li {
   list-style: none;
-  font-family: Calibri;
+  text-decoration: underline;
 }
 
-a {
-  text-decoration: none;
-  color: #292929;
+header.principal nav li{
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+h3{
+  font-size: 30px;
+  font-weight:bold;
+}
+h4{
+  font-size: 25px;
+  font-weight:normal;
+}
+main.contacto p{
+  font-size: 20px;
 }
