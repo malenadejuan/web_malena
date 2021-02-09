@@ -1,19 +1,42 @@
+:root {
+  --color-fondo: #ebf0f6;
+  --color-texto: #273447;
+  --color-pfondo: #758394;
+}
+
 * {
   box-sizing: border-box;
 }
 
-body {
-  background-color: #EBF0F6;
-  font-family: 'Raleway', Calibri;
-  color: #273447;
-}
-a {
-  color: #273447;
-  text-decoration: none;
+*:hover {
+    cursor: default;
 }
 
-header.principal, footer.pie, header.principal a, footer.pie a {
-  color:#758394;
+body {
+  margin: 0;
+  background-color: var(--color-fondo);
+  font-family: 'Raleway', Calibri;
+  color: var(--color-texto);
+}
+a {
+  color: inherit;
+  text-decoration: none;
+
+}
+
+.principal, .pie {
+  color: var(--color-pfondo);
+  padding: 10px 30px;
+}
+
+footer.pie a, header.principal a {
+  color: inherit;
+}
+
+.pie a:hover, .principal a:hover {
+  color: var(--color-texto);
+  font-weight: normal;
+  transition: 1s;
 }
 
 footer.pie {
@@ -41,6 +64,7 @@ h2 {
   text-align: center;
   font-size: 50px;
   font-weight: 400;
+  margin: 0 auto 20px;
 }
 
 h2.home {
@@ -52,22 +76,32 @@ h1 {
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
   font-size: 40px;
+  margin: 0;
 }
 
-footer.pie nav li {
+.pie li {
   list-style: none;
   text-decoration: underline;
+  display: inline-block;
+  padding: 2px;
 }
 
-header.principal nav li {
+.principal ul{
+  padding: 0 0 0 30px;
+}
+
+.principal li {
   list-style: none;
   text-transform: uppercase;
   font-weight: 400;
+  padding: 3px;
+  display: inline-block;
 }
 h3 {
   font-size: 30px;
   font-weight:bold;
 }
+
 main.contacto h3 {
   font-size: 25px;
   font-weight:normal;
