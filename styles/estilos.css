@@ -30,6 +30,11 @@ section.poemas img {
 
 }
 
+section.poemas p{
+  margin: auto 200px;
+  margin-bottom: 30px;
+}
+
 h2 {
   font-family: 'Raleway', sans-serif;
   text-align: center;
@@ -68,4 +73,9 @@ main.contacto h3{
 }
 main.contacto p{
   font-size: 20px;
+}
+
+main.contacto iframe {
+  margin: 0 auto;
+  display: block;
 }
