@@ -1,4 +1,8 @@
-body{
+* {
+  box-sizing: border-box;
+}
+
+body {
   background-color: #EBF0F6;
   font-family: 'Raleway', Calibri;
   color: #273447;
@@ -10,14 +14,12 @@ a {
 
 header.principal, footer.pie, header.principal a, footer.pie a {
   color:#758394;
-
 }
 
-footer.pie{
+footer.pie {
   font-size: small;
   font-style: oblique;
   text-align: center;
-
 }
 
 section.poemas, section.poemas img{
@@ -27,7 +29,6 @@ section.poemas, section.poemas img{
 
 section.poemas img {
   width: 1000px;
-
 }
 
 section.poemas p{
@@ -58,24 +59,26 @@ footer.pie nav li {
   text-decoration: underline;
 }
 
-header.principal nav li{
+header.principal nav li {
   list-style: none;
   text-transform: uppercase;
   font-weight: 400;
 }
-h3{
+h3 {
   font-size: 30px;
   font-weight:bold;
 }
-main.contacto h3{
+main.contacto h3 {
   font-size: 25px;
   font-weight:normal;
 }
-main.contacto p{
+
+main.contacto p {
   font-size: 20px;
 }
 
 main.contacto iframe {
   margin: 0 auto;
   display: block;
+  width: 85%;
 }
